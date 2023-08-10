@@ -1,0 +1,155 @@
+body {
+    background-image: url(box-wooden-table-books-coins.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+}
+#mother{
+    width: 480px;
+    display: none;
+    font-family: 'Tajawal', sans-serif;
+}
+h1{
+    font-family: 'Tajawal', sans-serif;
+}
+button{
+    width: 140px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color:tan;
+    border:1px solid rosybrown;
+    transition: 0.2;
+    font-family: 'Tajawal', sans-serif;
+}
+::selection{
+    color:yellow;
+    background-color: black;
+}
+p{
+    font-family: 'Tajawal', sans-serif;
+    font-size: 18px;
+    color:burlywood;
+    font-weight: bold;
+}
+button:hover{
+    border-left:3px solid black;
+    border-right:3px solid black;
+}
+.book{
+    position: absolute;
+    width:140px;
+    height: 220px;
+    margin-left: 0px;
+    margin-top: 50px;
+    background: url(html.png) no-repeat;
+    background-size:cover;
+    transform-style: preserve-3d;
+    perspective: 800px;
+    box-shadow: 1px 1px 12px black;
+    border-radius: 13px;
+}
+.cover{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background: url(crop.jpg) no-repeat;
+        transform-origin:0 ;
+        transition: all 0.4s ease;
+        box-shadow: 1px 1px 12px black;
+        border-radius: 13px;
+}
+.book:hover .cover{
+    transform: rotateY(-73deg) ;
+}
+
+.book1{
+    position: absolute;
+    width:140px;
+    height: 220px;
+    margin-left: 170px;
+    margin-top: 50px;
+    background: url(css.png) no-repeat;
+    background-size:cover;
+    transform-style: preserve-3d;
+    perspective: 800px;
+    box-shadow: 1px 1px 12px black;
+    border-radius: 13px;
+}
+.cover1{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background: url(crop.jpg) no-repeat;
+        transform-origin:0 ;
+        transition: all 0.4s ease;
+        box-shadow: 1px 1px 12px black;
+        border-radius: 13px;
+}
+.book1:hover .cover1{
+    transform: rotateY(-73deg) ;
+}
+
+.book2{
+    position: absolute;
+    width:140px;
+    height: 220px;
+    margin-left: 340px;
+    margin-top: 50px;
+    background: url(js.png) no-repeat;
+    background-size:cover;
+    transform-style: preserve-3d;
+    perspective: 800px;
+    box-shadow: 1px 1px 12px black;
+    border-radius: 13px;
+}
+.cover2{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background: url(crop.jpg) no-repeat;
+        transform-origin:0 ;
+        transition: all 0.4s ease;
+        box-shadow: 1px 1px 12px black;
+        border-radius: 13px;
+}
+.book2:hover .cover2{
+    transform: rotateY(-73deg) ;
+}
+#books{
+    width: 480px;
+    padding: 10px;
+    cursor: pointer;
+    background-color: burlywood;
+    border:1px solid tan;
+    color:white;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+input {
+    background-color: burlywood;
+    border: 5px solid tan;
+    margin: 10px auto;
+}
+h2 {
+    text-align: center;
+    font-weight: normal;
+    color: wheat;
+}
+label {
+    margin: 20px;
+}
+fieldset {
+    position: relative;
+    top: 350px;
+    width: 50%;
+    border: 2px solid wheat;
+}
+#send {
+    width: 100%;
+    height: 30px;
+    background-color: burlywood
+}
